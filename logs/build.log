@@ -1,0 +1,1158 @@
+=== single ===
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.single
+#1 transferring dockerfile: 37B 0.0s
+#1 transferring dockerfile: 1.25kB 0.0s done
+#1 DONE 0.2s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.6-slim-bookworm
+#2 DONE 2.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context:
+#3 transferring context: 111B 0.0s done
+#3 DONE 0.2s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 resolve docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b 0.1s done
+#5 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 95.37kB 0.0s done
+#4 DONE 0.4s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 DONE 0.8s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673 0B / 3.19MB 0.2s
+#5 sha256:4bfbe15b3e0135fc110b1a7b2dcecc2d9564b611698e7a9c36cb28774d0b1581 0B / 233B 0.2s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 0B / 12.83MB 0.2s
+#5 sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 0B / 3.32MB 0.2s
+#5 sha256:4bfbe15b3e0135fc110b1a7b2dcecc2d9564b611698e7a9c36cb28774d0b1581 233B / 233B 0.6s done
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 0B / 29.15MB 0.2s
+#5 sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673 1.05MB / 3.19MB 1.7s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 1.05MB / 12.83MB 2.1s
+#5 sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 1.05MB / 3.32MB 2.1s
+#5 sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673 2.10MB / 3.19MB 3.0s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 2.10MB / 12.83MB 3.5s
+#5 sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 2.10MB / 3.32MB 3.5s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 2.10MB / 29.15MB 3.2s
+#5 sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673 3.19MB / 3.19MB 4.4s done
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 3.15MB / 12.83MB 4.7s
+#5 sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 3.15MB / 3.32MB 4.7s
+#5 sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 3.32MB / 3.32MB 4.9s done
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 4.19MB / 12.83MB 5.9s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 4.19MB / 29.15MB 5.6s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 5.24MB / 12.83MB 6.8s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 6.29MB / 12.83MB 8.0s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 6.29MB / 29.15MB 7.8s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 7.34MB / 12.83MB 9.0s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 8.39MB / 12.83MB 10.2s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 8.39MB / 29.15MB 10.1s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 9.44MB / 12.83MB 11.4s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 10.49MB / 12.83MB 12.5s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 10.49MB / 29.15MB 12.3s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 11.53MB / 12.83MB 13.7s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 12.58MB / 12.83MB 14.9s
+#5 sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 12.83MB / 12.83MB 15.0s done
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 12.58MB / 29.15MB 14.7s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 14.68MB / 29.15MB 16.7s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 16.78MB / 29.15MB 18.8s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 18.87MB / 29.15MB 20.9s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 20.97MB / 29.15MB 23.0s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 23.07MB / 29.15MB 25.2s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 25.17MB / 29.15MB 27.5s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 27.26MB / 29.15MB 29.6s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 29.15MB / 29.15MB 31.4s
+#5 sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 29.15MB / 29.15MB 31.5s done
+#5 extracting sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227
+#5 extracting sha256:1f7ce2fa46ab3942feabee654933948821303a5a821789dddab2d8c3df59e227 2.7s done
+#5 DONE 35.8s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 extracting sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189
+#5 extracting sha256:442c5d63eafd969b755d7c8e0914319677ca8d5112a84e851b16677a4fc1d189 0.6s done
+#5 DONE 36.3s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 extracting sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd
+#5 extracting sha256:c3aa3af0d5819a2242bfec83abe997d35d5d295c8f3ef3fc40d2ce1ac796b1bd 1.4s done
+#5 DONE 37.7s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 extracting sha256:4bfbe15b3e0135fc110b1a7b2dcecc2d9564b611698e7a9c36cb28774d0b1581 0.1s done
+#5 DONE 37.8s
+
+#5 [1/7] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 extracting sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673
+#5 extracting sha256:848d19a36773ad77a8144dab4d0f16d8c7a7704c58c0f91d1b7c06bd662c2673 0.5s done
+#5 DONE 38.4s
+
+#6 [2/7] WORKDIR /app
+#6 DONE 2.1s
+
+#7 [3/7] COPY . .
+#7 DONE 0.5s
+
+#8 [4/7] RUN python -m pip install       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --break-system-packages       --progress-bar off       poetry poetry-plugin-export setuptools wheel
+#8 4.874 Collecting poetry
+#8 4.874   Obtaining dependency information for poetry from https://files.pythonhosted.org/packages/d6/7a/6b4fafb693200fc24fad8453ed200b902ab3fe56743cdcc756a6fae23ddf/poetry-2.5.1-py3-none-any.whl.metadata
+#8 5.265   Downloading poetry-2.5.1-py3-none-any.whl.metadata (7.6 kB)
+#8 5.351 Collecting poetry-plugin-export
+#8 5.351   Obtaining dependency information for poetry-plugin-export from https://files.pythonhosted.org/packages/07/74/494c8132147ec0e8f7908511b88072caf5affa7ce14562bbde7af99e60bd/poetry_plugin_export-1.10.1-py3-none-any.whl.metadata
+#8 5.419   Downloading poetry_plugin_export-1.10.1-py3-none-any.whl.metadata (3.7 kB)
+#8 5.426 Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (65.5.1)
+#8 5.430 Requirement already satisfied: wheel in /usr/local/lib/python3.11/site-packages (0.42.0)
+#8 5.595 Collecting build<2.0.0,>=1.2.1 (from poetry)
+#8 5.596   Obtaining dependency information for build<2.0.0,>=1.2.1 from https://files.pythonhosted.org/packages/ad/9b/9fb3585dabcd73a1b2a6267f63f62649347c9e6d072c9fde365b105abb2c/build-1.6.1-py3-none-any.whl.metadata
+#8 5.673   Downloading build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+#8 5.766 Collecting cachecontrol[filecache]<0.15.0,>=0.14.0 (from poetry)
+#8 5.773   Obtaining dependency information for cachecontrol[filecache]<0.15.0,>=0.14.0 from https://files.pythonhosted.org/packages/ef/79/c45f2d53efe6ada1110cf6f9fca095e4ff47a0454444aefdde6ac4789179/cachecontrol-0.14.4-py3-none-any.whl.metadata
+#8 5.851   Downloading cachecontrol-0.14.4-py3-none-any.whl.metadata (3.1 kB)
+#8 5.947 Collecting cleo<3.0.0,>=2.1.0 (from poetry)
+#8 5.954   Obtaining dependency information for cleo<3.0.0,>=2.1.0 from https://files.pythonhosted.org/packages/2d/f5/6bbead8b880620e5a99e0e4bb9e22e67cca16ff48d54105302a3e7821096/cleo-2.1.0-py3-none-any.whl.metadata
+#8 6.022   Downloading cleo-2.1.0-py3-none-any.whl.metadata (12 kB)
+#8 7.043 Collecting dulwich<2,>=0.25.0 (from poetry)
+#8 7.043   Obtaining dependency information for dulwich<2,>=0.25.0 from https://files.pythonhosted.org/packages/26/5b/aa627795c09db3b23679af7afc96c87fdbf62701ec907216e75b0e067c25/dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata
+#8 7.116   Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+#8 7.215 Collecting fastjsonschema<3.0.0,>=2.18.0 (from poetry)
+#8 7.217   Obtaining dependency information for fastjsonschema<3.0.0,>=2.18.0 from https://files.pythonhosted.org/packages/49/82/2755c7c982086f00d4dab85bc120ec35045a9fc2191893a6ce79afe94443/fastjsonschema-2.22.2-py3-none-any.whl.metadata
+#8 7.288   Downloading fastjsonschema-2.22.2-py3-none-any.whl.metadata (2.1 kB)
+#8 7.388 Collecting findpython<0.9.0,>=0.6.2 (from poetry)
+#8 7.388   Obtaining dependency information for findpython<0.9.0,>=0.6.2 from https://files.pythonhosted.org/packages/bb/a5/fae2000239a1f0225c9f31ec5f790f465d3cf135e79937ad19c876303e21/findpython-0.8.0-py3-none-any.whl.metadata
+#8 7.464   Downloading findpython-0.8.0-py3-none-any.whl.metadata (5.4 kB)
+#8 7.559 Collecting installer<2.0.0,>=0.7.0 (from poetry)
+#8 7.566   Obtaining dependency information for installer<2.0.0,>=0.7.0 from https://files.pythonhosted.org/packages/d7/7a/63547a792a12148882205d79e07644091d5b7690f40c2bb9d41452a8bdc2/installer-1.1.0-py3-none-any.whl.metadata
+#8 7.854   Downloading installer-1.1.0-py3-none-any.whl.metadata (1.3 kB)
+#8 8.058 Collecting keyring<26.0.0,>=25.1.0 (from poetry)
+#8 8.065   Obtaining dependency information for keyring<26.0.0,>=25.1.0 from https://files.pythonhosted.org/packages/81/db/e655086b7f3a705df045bf0933bdd9c2f79bb3c97bfef1384598bb79a217/keyring-25.7.0-py3-none-any.whl.metadata
+#8 8.139   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+#8 8.311 Collecting packaging>=24.2 (from poetry)
+#8 8.311   Obtaining dependency information for packaging>=24.2 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+#8 8.385   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#8 8.658 Collecting pbs-installer[download,install]>=2025.6.10 (from poetry)
+#8 8.669   Obtaining dependency information for pbs-installer[download,install]>=2025.6.10 from https://files.pythonhosted.org/packages/99/50/4619dc223d7f3866857af6189ead37ee02d0000f1394e5167eb08e3b2021/pbs_installer-2026.10.3-py3-none-any.whl.metadata
+#8 8.748   Downloading pbs_installer-2026.10.3-py3-none-any.whl.metadata (1.2 kB)
+#8 8.848 Collecting pkginfo<2.0,>=1.12 (from poetry)
+#8 8.848   Obtaining dependency information for pkginfo<2.0,>=1.12 from https://files.pythonhosted.org/packages/ed/ad/2e9e8a7bb014758af9453b3d818848d50852592296aceb8817f2a937fa71/pkginfo-1.13-py3-none-any.whl.metadata
+#8 8.936   Downloading pkginfo-1.13-py3-none-any.whl.metadata (13 kB)
+#8 9.099 Collecting platformdirs<5,>=3.0.0 (from poetry)
+#8 9.101   Obtaining dependency information for platformdirs<5,>=3.0.0 from https://files.pythonhosted.org/packages/8d/15/1633010b26e88e872c93b67c0b6c5e174fb74cb6fb5c1472b4d51d4a8f22/platformdirs-4.13.0-py3-none-any.whl.metadata
+#8 9.186   Downloading platformdirs-4.13.0-py3-none-any.whl.metadata (5.5 kB)
+#8 9.311 Collecting poetry-core==2.5.0 (from poetry)
+#8 9.311   Obtaining dependency information for poetry-core==2.5.0 from https://files.pythonhosted.org/packages/b7/25/7ed0a2ea4fe12f7fd0394387b5debbcd6fdbd06e5ac9daab96ba11471da8/poetry_core-2.5.0-py3-none-any.whl.metadata
+#8 9.395   Downloading poetry_core-2.5.0-py3-none-any.whl.metadata (3.8 kB)
+#8 9.477 Collecting pyproject-hooks<2.0.0,>=1.0.0 (from poetry)
+#8 9.483   Obtaining dependency information for pyproject-hooks<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/85/11/044d1ae1b4ec0d7af88ee5bc91e081be1022533032b906a7bdabdbb60977/pyproject_hooks-1.3.3-py3-none-any.whl.metadata
+#8 9.550   Downloading pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+#8 9.693 Collecting requests<3.0,>=2.26 (from poetry)
+#8 9.712   Obtaining dependency information for requests<3.0,>=2.26 from https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl.metadata
+#8 9.782   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#8 9.876 Collecting requests-toolbelt<2.0.0,>=1.0.0 (from poetry)
+#8 9.878   Obtaining dependency information for requests-toolbelt<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata
+#8 9.944   Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+#8 10.05 Collecting shellingham<2.0,>=1.5 (from poetry)
+#8 10.06   Obtaining dependency information for shellingham<2.0,>=1.5 from https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl.metadata
+#8 10.13   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+#8 10.27 Collecting tomlkit<1.0.0,>=0.11.4 (from poetry)
+#8 10.27   Obtaining dependency information for tomlkit<1.0.0,>=0.11.4 from https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata
+#8 10.35   Downloading tomlkit-0.15.1-py3-none-any.whl.metadata (3.3 kB)
+#8 10.48 Collecting trove-classifiers>=2022.5.19 (from poetry)
+#8 10.48   Obtaining dependency information for trove-classifiers>=2022.5.19 from https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata
+#8 10.56   Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata (2.4 kB)
+#8 10.92 Collecting virtualenv>=20.26.6 (from poetry)
+#8 10.93   Obtaining dependency information for virtualenv>=20.26.6 from https://files.pythonhosted.org/packages/52/5b/799c3e5b8e04d5fa1c9b61a4c1f5079603e747205c7311b92abd30283df5/virtualenv-21.14.7-py3-none-any.whl.metadata
+#8 11.00   Downloading virtualenv-21.14.7-py3-none-any.whl.metadata (4.1 kB)
+#8 11.57 Collecting msgpack<2.0.0,>=0.5.2 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 11.57   Obtaining dependency information for msgpack<2.0.0,>=0.5.2 from https://files.pythonhosted.org/packages/aa/83/800570e6a22376eb8d599920f70aead4779a63611696f567477c4e85a70f/msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 11.65   Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+#8 11.86 Collecting filelock>=3.8.0 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 11.86   Obtaining dependency information for filelock>=3.8.0 from https://files.pythonhosted.org/packages/d7/8b/f837f52905395ba4510fe61f753c24833fb0a9c76e21267bb9f828b664a9/filelock-4.1.1-py3-none-any.whl.metadata
+#8 11.95   Downloading filelock-4.1.1-py3-none-any.whl.metadata (2.0 kB)
+#8 12.02 Collecting crashtest<0.5.0,>=0.4.1 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 12.03   Obtaining dependency information for crashtest<0.5.0,>=0.4.1 from https://files.pythonhosted.org/packages/b0/5c/3ba7d12e7a79566f97b8f954400926d7b6eb33bcdccc1315a857f200f1f1/crashtest-0.4.1-py3-none-any.whl.metadata
+#8 12.12   Downloading crashtest-0.4.1-py3-none-any.whl.metadata (1.1 kB)
+#8 15.30 Collecting rapidfuzz<4.0.0,>=3.0.0 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 15.31   Obtaining dependency information for rapidfuzz<4.0.0,>=3.0.0 from https://files.pythonhosted.org/packages/11/ae/a781ec62825990319483c82ef962b509e9ce22a67a9f97d63d70b2b175b9/rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 15.44   Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+#8 15.73 Collecting urllib3>=2.2.2 (from dulwich<2,>=0.25.0->poetry)
+#8 15.73   Obtaining dependency information for urllib3>=2.2.2 from https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl.metadata
+#8 15.81   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#8 15.93 Collecting typing_extensions>=4.6.0 (from dulwich<2,>=0.25.0->poetry)
+#8 15.93   Obtaining dependency information for typing_extensions>=4.6.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+#8 16.02   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#8 16.20 Collecting SecretStorage>=3.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.20   Obtaining dependency information for SecretStorage>=3.2 from https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl.metadata
+#8 16.26   Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)
+#8 16.35 Collecting jeepney>=0.4.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.35   Obtaining dependency information for jeepney>=0.4.2 from https://files.pythonhosted.org/packages/b2/a3/e137168c9c44d18eff0376253da9f1e9234d0239e0ee230d2fee6cea8e55/jeepney-0.9.0-py3-none-any.whl.metadata
+#8 16.41   Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+#8 16.67 Collecting importlib_metadata>=4.11.4 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.67   Obtaining dependency information for importlib_metadata>=4.11.4 from https://files.pythonhosted.org/packages/b3/55/ecca97ae19075f1fac62def77731e7f535e6c1fb8f92ff08160c5e6dade8/importlib_metadata-9.0.1-py3-none-any.whl.metadata
+#8 16.75   Downloading importlib_metadata-9.0.1-py3-none-any.whl.metadata (4.5 kB)
+#8 16.82 Collecting jaraco.classes (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.83   Obtaining dependency information for jaraco.classes from https://files.pythonhosted.org/packages/7f/66/b15ce62552d84bbfcec9a4873ab79d993a1dd4edb922cbfccae192bd5b5f/jaraco.classes-3.4.0-py3-none-any.whl.metadata
+#8 16.91   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+#8 17.01 Collecting jaraco.functools (from keyring<26.0.0,>=25.1.0->poetry)
+#8 17.02   Obtaining dependency information for jaraco.functools from https://files.pythonhosted.org/packages/02/36/ecc85bc96c273dc8a11273ed4782272975e6338d4a3e9228621175edf0e3/jaraco_functools-4.6.0-py3-none-any.whl.metadata
+#8 17.09   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+#8 17.18 Collecting jaraco.context (from keyring<26.0.0,>=25.1.0->poetry)
+#8 17.18   Obtaining dependency information for jaraco.context from https://files.pythonhosted.org/packages/f2/58/bc8954bda5fcda97bd7c19be11b85f91973d67a706ed4a3aec33e7de22db/jaraco_context-6.1.2-py3-none-any.whl.metadata
+#8 17.27   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+#8 17.38 Collecting httpx<1,>=0.27.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.39   Obtaining dependency information for httpx<1,>=0.27.0 from https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl.metadata
+#8 17.47   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+#8 17.88 Collecting backports.zstd>=1.0.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.88   Obtaining dependency information for backports.zstd>=1.0.0 from https://files.pythonhosted.org/packages/cf/c9/3eb6466013bbee7f12cf442507ca80d3e31ec1fd68156c57647518a47d27/backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 17.96   Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.8 kB)
+#8 18.80 Collecting charset_normalizer<4,>=2 (from requests<3.0,>=2.26->poetry)
+#8 18.81   Obtaining dependency information for charset_normalizer<4,>=2 from https://files.pythonhosted.org/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 18.88   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#8 19.12 Collecting idna<4,>=2.5 (from requests<3.0,>=2.26->poetry)
+#8 19.12   Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl.metadata
+#8 19.21   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#8 19.32 Collecting certifi>=2023.5.7 (from requests<3.0,>=2.26->poetry)
+#8 19.34   Obtaining dependency information for certifi>=2023.5.7 from https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl.metadata
+#8 19.40   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#8 19.53 Collecting distlib<1,>=0.4.3 (from virtualenv>=20.26.6->poetry)
+#8 19.54   Obtaining dependency information for distlib<1,>=0.4.3 from https://files.pythonhosted.org/packages/02/08/9c41fb51ab5b43eb21674aff13df270e8ba6c4b29c8624e328dc7a9482af/distlib-0.4.3-py2.py3-none-any.whl.metadata
+#8 19.61   Downloading distlib-0.4.3-py2.py3-none-any.whl.metadata (5.3 kB)
+#8 19.87 Collecting python-discovery>=1.6.1 (from virtualenv>=20.26.6->poetry)
+#8 19.87   Obtaining dependency information for python-discovery>=1.6.1 from https://files.pythonhosted.org/packages/61/3b/50ed32583bfffa737df67d33b9c15d7b25df232c55ab606d059f610ef6ca/python_discovery-1.6.2-py3-none-any.whl.metadata
+#8 19.95   Downloading python_discovery-1.6.2-py3-none-any.whl.metadata (5.1 kB)
+#8 20.10 Collecting anyio (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.11   Obtaining dependency information for anyio from https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl.metadata
+#8 20.18   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#8 20.28 Collecting httpcore==1.* (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.28   Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl.metadata
+#8 20.37   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+#8 20.46 Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.47   Obtaining dependency information for h11>=0.16 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+#8 20.54   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#8 20.69 Collecting zipp>=3.20 (from importlib_metadata>=4.11.4->keyring<26.0.0,>=25.1.0->poetry)
+#8 20.69   Obtaining dependency information for zipp>=3.20 from https://files.pythonhosted.org/packages/b5/98/df615823cd9419131ce19fba00de53a663794369e198aade064a244b385d/zipp-4.1.1-py3-none-any.whl.metadata
+#8 20.77   Downloading zipp-4.1.1-py3-none-any.whl.metadata (3.6 kB)
+#8 22.20 Collecting cryptography>=2.0 (from SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.21   Obtaining dependency information for cryptography>=2.0 from https://files.pythonhosted.org/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata
+#8 22.29   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+#8 22.54 Collecting more-itertools (from jaraco.classes->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.54   Obtaining dependency information for more-itertools from https://files.pythonhosted.org/packages/e8/3d/1087453384dbde46a8c7f9356eead2c58be8a7bf156bca40243377c85715/more_itertools-11.1.0-py3-none-any.whl.metadata
+#8 22.62   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+#8 22.85 Collecting backports.tarfile (from jaraco.context->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.85   Obtaining dependency information for backports.tarfile from https://files.pythonhosted.org/packages/b9/fa/123043af240e49752f1c4bd24da5053b6bd00cad78c2be53c0d1e8b975bc/backports.tarfile-1.2.0-py3-none-any.whl.metadata
+#8 22.93   Downloading backports.tarfile-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+#8 23.69 Collecting cffi>=2.0.0 (from cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 23.69   Obtaining dependency information for cffi>=2.0.0 from https://files.pythonhosted.org/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata
+#8 23.78   Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+#8 24.12 Collecting pycparser (from cffi>=2.0.0->cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 24.13   Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl.metadata
+#8 24.20   Downloading pycparser-3.11-py3-none-any.whl.metadata (8.2 kB)
+#8 24.32 Downloading poetry-2.5.1-py3-none-any.whl (307 kB)
+#8 24.71 Downloading poetry_core-2.5.0-py3-none-any.whl (413 kB)
+#8 25.21 Downloading poetry_plugin_export-1.10.1-py3-none-any.whl (13 kB)
+#8 25.29 Downloading build-1.6.1-py3-none-any.whl (31 kB)
+#8 25.39 Downloading cleo-2.1.0-py3-none-any.whl (78 kB)
+#8 25.56 Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl (1.5 MB)
+#8 27.37 Downloading fastjsonschema-2.22.2-py3-none-any.whl (27 kB)
+#8 27.47 Downloading findpython-0.8.0-py3-none-any.whl (21 kB)
+#8 27.56 Downloading installer-1.1.0-py3-none-any.whl (464 kB)
+#8 28.11 Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+#8 28.19 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#8 28.37 Downloading pkginfo-1.13-py3-none-any.whl (32 kB)
+#8 28.46 Downloading platformdirs-4.13.0-py3-none-any.whl (32 kB)
+#8 28.55 Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+#8 28.63 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#8 28.77 Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+#8 28.86 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+#8 28.95 Downloading tomlkit-0.15.1-py3-none-any.whl (49 kB)
+#8 29.04 Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl (14 kB)
+#8 29.12 Downloading virtualenv-21.14.7-py3-none-any.whl (5.5 MB)
+#8 34.63 Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (493 kB)
+#8 35.21 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#8 35.42 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+#8 35.74 Downloading crashtest-0.4.1-py3-none-any.whl (7.6 kB)
+#8 35.81 Downloading distlib-0.4.3-py2.py3-none-any.whl (470 kB)
+#8 36.37 Downloading filelock-4.1.1-py3-none-any.whl (132 kB)
+#8 36.55 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#8 36.72 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#8 36.85 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#8 37.03 Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+#8 37.11 Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+#8 37.21 Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (477 kB)
+#8 37.75 Downloading python_discovery-1.6.2-py3-none-any.whl (38 kB)
+#8 37.84 Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+#8 41.12 Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+#8 41.21 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#8 41.30 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#8 41.52 Downloading cachecontrol-0.14.4-py3-none-any.whl (22 kB)
+#8 41.59 Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+#8 41.67 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+#8 41.75 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+#8 41.85 Downloading pbs_installer-2026.10.3-py3-none-any.whl (83 kB)
+#8 41.99 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+#8 46.87 Downloading zipp-4.1.1-py3-none-any.whl (10 kB)
+#8 46.95 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#8 47.13 Downloading backports.tarfile-1.2.0-py3-none-any.whl (30 kB)
+#8 47.23 Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+#8 47.36 Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+#8 47.64 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#8 47.73 Downloading pycparser-3.11-py3-none-any.whl (51 kB)
+#8 48.52 Installing collected packages: trove-classifiers, distlib, zipp, urllib3, typing_extensions, tomlkit, shellingham, rapidfuzz, pyproject-hooks, pycparser, poetry-core, platformdirs, pkginfo, pbs-installer, packaging, msgpack, more-itertools, jeepney, installer, idna, h11, filelock, fastjsonschema, crashtest, charset_normalizer, certifi, backports.zstd, backports.tarfile, requests, python-discovery, jaraco.functools, jaraco.context, jaraco.classes, importlib_metadata, httpcore, findpython, dulwich, cleo, cffi, build, anyio, virtualenv, requests-toolbelt, httpx, cryptography, cachecontrol, SecretStorage, keyring, poetry, poetry-plugin-export
+#8 55.48 Successfully installed SecretStorage-3.5.0 anyio-4.15.1 backports.tarfile-1.2.0 backports.zstd-1.8.0 build-1.6.1 cachecontrol-0.14.4 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 cleo-2.1.0 crashtest-0.4.1 cryptography-50.0.2 distlib-0.4.3 dulwich-1.2.17 fastjsonschema-2.22.2 filelock-4.1.1 findpython-0.8.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 importlib_metadata-9.0.1 installer-1.1.0 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 keyring-25.7.0 more-itertools-11.1.0 msgpack-1.2.3 packaging-26.3 pbs-installer-2026.10.3 pkginfo-1.13 platformdirs-4.13.0 poetry-2.5.1 poetry-core-2.5.0 poetry-plugin-export-1.10.1 pycparser-3.11 pyproject-hooks-1.3.3 python-discovery-1.6.2 rapidfuzz-3.14.6 requests-2.34.2 requests-toolbelt-1.0.0 shellingham-1.5.4 tomlkit-0.15.1 trove-classifiers-2026.9.21.13 typing_extensions-4.16.0 urllib3-2.8.0 virtualenv-21.14.7 zipp-4.1.1
+#8 55.49 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 DONE 57.0s
+
+#9 [5/7] RUN mkdir -p dist  && poetry export       --without-hashes       --format constraints.txt       --output dist/constraints.txt  && poetry run       python -m pip wheel         --isolated         --requirement dist/constraints.txt         --wheel-dir dist/vendor
+#9 2.467 Creating virtualenv counter-backend-9TtSrW0h-py3.11 in /root/.cache/pypoetry/virtualenvs
+#9 4.530 Ignoring colorama: markers 'python_version >= "3.11" and python_version < "4.0" and sys_platform == "win32"' don't match your environment
+#9 6.935 Collecting aiohttp==3.8.5 (from -r dist/constraints.txt (line 1))
+#9 7.341   Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+#9 7.504 Collecting aiosignal==1.3.1 (from -r dist/constraints.txt (line 2))
+#9 7.610   Downloading aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+#9 7.762 Collecting async-timeout==4.0.3 (from -r dist/constraints.txt (line 3))
+#9 7.834   Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+#9 7.950 Collecting attrs==23.1.0 (from -r dist/constraints.txt (line 4))
+#9 8.020   Downloading attrs-23.1.0-py3-none-any.whl.metadata (11 kB)
+#9 8.777 Collecting charset-normalizer==3.2.0 (from -r dist/constraints.txt (line 5))
+#9 8.876   Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+#9 9.328 Collecting frozenlist==1.4.0 (from -r dist/constraints.txt (line 7))
+#9 9.406   Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.2 kB)
+#9 9.538 Collecting idna==3.4 (from -r dist/constraints.txt (line 8))
+#9 9.605   Downloading idna-3.4-py3-none-any.whl.metadata (9.8 kB)
+#9 9.754 Collecting iniconfig==2.0.0 (from -r dist/constraints.txt (line 9))
+#9 9.829   Downloading iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+#9 11.07 Collecting multidict==6.0.4 (from -r dist/constraints.txt (line 10))
+#9 11.14   Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+#9 11.27 Collecting packaging==23.2 (from -r dist/constraints.txt (line 11))
+#9 11.34   Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+#9 11.46 Collecting pluggy==1.3.0 (from -r dist/constraints.txt (line 12))
+#9 11.58   Downloading pluggy-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+#9 11.74 Collecting pytest-aiohttp==1.0.5 (from -r dist/constraints.txt (line 13))
+#9 11.82   Downloading pytest_aiohttp-1.0.5-py3-none-any.whl.metadata (2.6 kB)
+#9 11.98 Collecting pytest-asyncio==0.21.1 (from -r dist/constraints.txt (line 14))
+#9 12.06   Downloading pytest_asyncio-0.21.1-py3-none-any.whl.metadata (4.0 kB)
+#9 12.30 Collecting pytest==7.4.3 (from -r dist/constraints.txt (line 15))
+#9 12.38   Downloading pytest-7.4.3-py3-none-any.whl.metadata (7.9 kB)
+#9 14.71 Collecting yarl==1.9.2 (from -r dist/constraints.txt (line 16))
+#9 14.78   Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (23 kB)
+#9 15.01 Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+#9 16.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 880.7 kB/s  0:00:01
+#9 16.34 Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+#9 16.43 Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+#9 16.72 Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+#9 16.92 Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+#9 17.30 Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+#9 17.42 Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+#9 17.57 Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (250 kB)
+#9 17.90 Downloading idna-3.4-py3-none-any.whl (61 kB)
+#9 18.04 Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+#9 18.17 Downloading packaging-23.2-py3-none-any.whl (53 kB)
+#9 18.51 Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
+#9 18.63 Downloading pytest_aiohttp-1.0.5-py3-none-any.whl (8.5 kB)
+#9 18.73 Downloading pytest_asyncio-0.21.1-py3-none-any.whl (13 kB)
+#9 18.85 Downloading pytest-7.4.3-py3-none-any.whl (325 kB)
+#9 19.27 Saved ./dist/vendor/aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.27 Saved ./dist/vendor/async_timeout-4.0.3-py3-none-any.whl
+#9 19.28 Saved ./dist/vendor/charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.28 Saved ./dist/vendor/multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.28 Saved ./dist/vendor/yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.28 Saved ./dist/vendor/aiosignal-1.3.1-py3-none-any.whl
+#9 19.28 Saved ./dist/vendor/attrs-23.1.0-py3-none-any.whl
+#9 19.28 Saved ./dist/vendor/frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.29 Saved ./dist/vendor/idna-3.4-py3-none-any.whl
+#9 19.30 Saved ./dist/vendor/iniconfig-2.0.0-py3-none-any.whl
+#9 19.30 Saved ./dist/vendor/packaging-23.2-py3-none-any.whl
+#9 19.30 Saved ./dist/vendor/pluggy-1.3.0-py3-none-any.whl
+#9 19.30 Saved ./dist/vendor/pytest_aiohttp-1.0.5-py3-none-any.whl
+#9 19.30 Saved ./dist/vendor/pytest_asyncio-0.21.1-py3-none-any.whl
+#9 19.31 Saved ./dist/vendor/pytest-7.4.3-py3-none-any.whl
+#9 DONE 19.8s
+
+#10 [6/7] RUN poetry build --format wheel
+#10 1.532 Building counter-backend (0.1.0)
+#10 1.668 Building wheel
+#10 1.681   - Building wheel
+#10 1.688   - Built counter_backend-0.1.0-py3-none-any.whl
+#10 DONE 2.1s
+
+#11 [7/7] RUN packages=$(      find 'dist' 'dist/vendor'         -maxdepth 1         -iname '*.whl'         -exec realpath {} \;         -print0       | xargs --null)  && python -m pip install       --isolated       --no-index       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --no-deps       --break-system-packages       --progress-bar off       ${packages}
+#11 1.271 Processing ./dist/counter_backend-0.1.0-py3-none-any.whl
+#11 1.298 Processing ./dist/vendor/attrs-23.1.0-py3-none-any.whl
+#11 1.318 Processing ./dist/vendor/async_timeout-4.0.3-py3-none-any.whl
+#11 1.329 Processing ./dist/vendor/packaging-23.2-py3-none-any.whl
+#11 1.344 Processing ./dist/vendor/pytest-7.4.3-py3-none-any.whl
+#11 1.356 Processing ./dist/vendor/pytest_asyncio-0.21.1-py3-none-any.whl
+#11 1.367 Processing ./dist/vendor/pluggy-1.3.0-py3-none-any.whl
+#11 1.374 Processing ./dist/vendor/multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 1.389 Processing ./dist/vendor/aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 1.418 Processing ./dist/vendor/yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 1.439 Processing ./dist/vendor/charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 1.457 Processing ./dist/vendor/frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 1.472 Processing ./dist/vendor/idna-3.4-py3-none-any.whl
+#11 1.486 Processing ./dist/vendor/iniconfig-2.0.0-py3-none-any.whl
+#11 1.509 Processing ./dist/vendor/pytest_aiohttp-1.0.5-py3-none-any.whl
+#11 1.522 Processing ./dist/vendor/aiosignal-1.3.1-py3-none-any.whl
+#11 1.587 Installing collected packages: yarl, pytest-asyncio, pytest-aiohttp, pytest, pluggy, packaging, multidict, iniconfig, idna, frozenlist, counter-backend, charset-normalizer, attrs, async-timeout, aiosignal, aiohttp
+#11 2.011   Attempting uninstall: packaging
+#11 2.052     Found existing installation: packaging 26.3
+#11 2.056     Uninstalling packaging-26.3:
+#11 2.079       Successfully uninstalled packaging-26.3
+#11 2.200   Attempting uninstall: idna
+#11 2.218     Found existing installation: idna 3.20
+#11 2.236     Uninstalling idna-3.20:
+#11 2.274       Successfully uninstalled idna-3.20
+#11 2.454   Attempting uninstall: charset-normalizer
+#11 2.477     Found existing installation: charset-normalizer 3.5.2
+#11 2.486     Uninstalling charset-normalizer-3.5.2:
+#11 2.539       Successfully uninstalled charset-normalizer-3.5.2
+#11 3.069 Successfully installed aiohttp-3.8.5 aiosignal-1.3.1 async-timeout-4.0.3 attrs-23.1.0 charset-normalizer-3.2.0 counter-backend-0.1.0 frozenlist-1.4.0 idna-3.4 iniconfig-2.0.0 multidict-6.0.4 packaging-23.2 pluggy-1.3.0 pytest-7.4.3 pytest-aiohttp-1.0.5 pytest-asyncio-0.21.1 yarl-1.9.2
+#11 3.075 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#11 DONE 3.5s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 11.2s done
+#12 exporting manifest sha256:47fce1cf39a6325525035393051555932aef05043444b377d5089f77fb322872
+#12 exporting manifest sha256:47fce1cf39a6325525035393051555932aef05043444b377d5089f77fb322872 0.1s done
+#12 exporting config sha256:f1292d895e23745c1c2914107fcabb5a127ff22b283ae8db58622021c9375f62
+#12 exporting config sha256:f1292d895e23745c1c2914107fcabb5a127ff22b283ae8db58622021c9375f62 0.2s done
+#12 exporting attestation manifest sha256:70f18eddc85732d9b4ac99783ff712c6d3bd340c0907a73760c9521f3b7f591d
+#12 exporting attestation manifest sha256:70f18eddc85732d9b4ac99783ff712c6d3bd340c0907a73760c9521f3b7f591d 0.2s done
+#12 exporting manifest list sha256:9dbdbfbc0e4e71c6bd29f3a27cd58c6dc1698e2ee359b4870c6e51192293d6d3
+#12 exporting manifest list sha256:9dbdbfbc0e4e71c6bd29f3a27cd58c6dc1698e2ee359b4870c6e51192293d6d3 0.1s done
+#12 naming to docker.io/library/counter:single
+#12 naming to docker.io/library/counter:single 0.0s done
+#12 unpacking to docker.io/library/counter:single
+#12 unpacking to docker.io/library/counter:single 8.6s done
+#12 DONE 20.7s
+63af4c8023481b7f7bcad27378aa0060edfafbe470ff62349e244f2585573e5d
+GET
+{"count": 0} [200]
+POST
+{"count": 1} [201]
+GET
+{"count": 1} [200]
+id
+uid=0(root) gid=0(root) groups=0(root)
+c-single
+=== multistage ===
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.multistage
+#1 transferring dockerfile: 1.35kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.6-slim-bookworm
+#2 DONE 0.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 111B done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [builder 1/6] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 resolve docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b 0.1s done
+#5 DONE 0.1s
+
+#6 [builder 2/6] WORKDIR /app
+#6 CACHED
+
+#4 [internal] load build context
+#4 transferring context: 43.61kB done
+#4 DONE 0.1s
+
+#7 [builder 3/6] COPY . .
+#7 DONE 0.1s
+
+#8 [builder 4/6] RUN python -m pip install       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --break-system-packages       --progress-bar off       poetry poetry-plugin-export setuptools wheel
+#8 4.470 Collecting poetry
+#8 4.480   Obtaining dependency information for poetry from https://files.pythonhosted.org/packages/d6/7a/6b4fafb693200fc24fad8453ed200b902ab3fe56743cdcc756a6fae23ddf/poetry-2.5.1-py3-none-any.whl.metadata
+#8 4.841   Downloading poetry-2.5.1-py3-none-any.whl.metadata (7.6 kB)
+#8 4.928 Collecting poetry-plugin-export
+#8 4.933   Obtaining dependency information for poetry-plugin-export from https://files.pythonhosted.org/packages/07/74/494c8132147ec0e8f7908511b88072caf5affa7ce14562bbde7af99e60bd/poetry_plugin_export-1.10.1-py3-none-any.whl.metadata
+#8 5.003   Downloading poetry_plugin_export-1.10.1-py3-none-any.whl.metadata (3.7 kB)
+#8 5.006 Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (65.5.1)
+#8 5.009 Requirement already satisfied: wheel in /usr/local/lib/python3.11/site-packages (0.42.0)
+#8 5.152 Collecting build<2.0.0,>=1.2.1 (from poetry)
+#8 5.158   Obtaining dependency information for build<2.0.0,>=1.2.1 from https://files.pythonhosted.org/packages/ad/9b/9fb3585dabcd73a1b2a6267f63f62649347c9e6d072c9fde365b105abb2c/build-1.6.1-py3-none-any.whl.metadata
+#8 5.236   Downloading build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+#8 5.330 Collecting cachecontrol[filecache]<0.15.0,>=0.14.0 (from poetry)
+#8 5.330   Obtaining dependency information for cachecontrol[filecache]<0.15.0,>=0.14.0 from https://files.pythonhosted.org/packages/ef/79/c45f2d53efe6ada1110cf6f9fca095e4ff47a0454444aefdde6ac4789179/cachecontrol-0.14.4-py3-none-any.whl.metadata
+#8 5.398   Downloading cachecontrol-0.14.4-py3-none-any.whl.metadata (3.1 kB)
+#8 5.496 Collecting cleo<3.0.0,>=2.1.0 (from poetry)
+#8 5.507   Obtaining dependency information for cleo<3.0.0,>=2.1.0 from https://files.pythonhosted.org/packages/2d/f5/6bbead8b880620e5a99e0e4bb9e22e67cca16ff48d54105302a3e7821096/cleo-2.1.0-py3-none-any.whl.metadata
+#8 5.570   Downloading cleo-2.1.0-py3-none-any.whl.metadata (12 kB)
+#8 6.558 Collecting dulwich<2,>=0.25.0 (from poetry)
+#8 6.568   Obtaining dependency information for dulwich<2,>=0.25.0 from https://files.pythonhosted.org/packages/26/5b/aa627795c09db3b23679af7afc96c87fdbf62701ec907216e75b0e067c25/dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata
+#8 6.665   Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+#8 6.762 Collecting fastjsonschema<3.0.0,>=2.18.0 (from poetry)
+#8 6.762   Obtaining dependency information for fastjsonschema<3.0.0,>=2.18.0 from https://files.pythonhosted.org/packages/49/82/2755c7c982086f00d4dab85bc120ec35045a9fc2191893a6ce79afe94443/fastjsonschema-2.22.2-py3-none-any.whl.metadata
+#8 6.832   Downloading fastjsonschema-2.22.2-py3-none-any.whl.metadata (2.1 kB)
+#8 6.929 Collecting findpython<0.9.0,>=0.6.2 (from poetry)
+#8 6.929   Obtaining dependency information for findpython<0.9.0,>=0.6.2 from https://files.pythonhosted.org/packages/bb/a5/fae2000239a1f0225c9f31ec5f790f465d3cf135e79937ad19c876303e21/findpython-0.8.0-py3-none-any.whl.metadata
+#8 7.002   Downloading findpython-0.8.0-py3-none-any.whl.metadata (5.4 kB)
+#8 7.111 Collecting installer<2.0.0,>=0.7.0 (from poetry)
+#8 7.111   Obtaining dependency information for installer<2.0.0,>=0.7.0 from https://files.pythonhosted.org/packages/d7/7a/63547a792a12148882205d79e07644091d5b7690f40c2bb9d41452a8bdc2/installer-1.1.0-py3-none-any.whl.metadata
+#8 7.170   Downloading installer-1.1.0-py3-none-any.whl.metadata (1.3 kB)
+#8 7.417 Collecting keyring<26.0.0,>=25.1.0 (from poetry)
+#8 7.417   Obtaining dependency information for keyring<26.0.0,>=25.1.0 from https://files.pythonhosted.org/packages/81/db/e655086b7f3a705df045bf0933bdd9c2f79bb3c97bfef1384598bb79a217/keyring-25.7.0-py3-none-any.whl.metadata
+#8 7.492   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+#8 7.664 Collecting packaging>=24.2 (from poetry)
+#8 7.667   Obtaining dependency information for packaging>=24.2 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+#8 7.735   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#8 7.873 Collecting pbs-installer[download,install]>=2025.6.10 (from poetry)
+#8 7.873   Obtaining dependency information for pbs-installer[download,install]>=2025.6.10 from https://files.pythonhosted.org/packages/99/50/4619dc223d7f3866857af6189ead37ee02d0000f1394e5167eb08e3b2021/pbs_installer-2026.10.3-py3-none-any.whl.metadata
+#8 7.937   Downloading pbs_installer-2026.10.3-py3-none-any.whl.metadata (1.2 kB)
+#8 8.035 Collecting pkginfo<2.0,>=1.12 (from poetry)
+#8 8.047   Obtaining dependency information for pkginfo<2.0,>=1.12 from https://files.pythonhosted.org/packages/ed/ad/2e9e8a7bb014758af9453b3d818848d50852592296aceb8817f2a937fa71/pkginfo-1.13-py3-none-any.whl.metadata
+#8 8.111   Downloading pkginfo-1.13-py3-none-any.whl.metadata (13 kB)
+#8 8.285 Collecting platformdirs<5,>=3.0.0 (from poetry)
+#8 8.301   Obtaining dependency information for platformdirs<5,>=3.0.0 from https://files.pythonhosted.org/packages/8d/15/1633010b26e88e872c93b67c0b6c5e174fb74cb6fb5c1472b4d51d4a8f22/platformdirs-4.13.0-py3-none-any.whl.metadata
+#8 8.357   Downloading platformdirs-4.13.0-py3-none-any.whl.metadata (5.5 kB)
+#8 8.476 Collecting poetry-core==2.5.0 (from poetry)
+#8 8.486   Obtaining dependency information for poetry-core==2.5.0 from https://files.pythonhosted.org/packages/b7/25/7ed0a2ea4fe12f7fd0394387b5debbcd6fdbd06e5ac9daab96ba11471da8/poetry_core-2.5.0-py3-none-any.whl.metadata
+#8 8.560   Downloading poetry_core-2.5.0-py3-none-any.whl.metadata (3.8 kB)
+#8 8.643 Collecting pyproject-hooks<2.0.0,>=1.0.0 (from poetry)
+#8 8.652   Obtaining dependency information for pyproject-hooks<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/85/11/044d1ae1b4ec0d7af88ee5bc91e081be1022533032b906a7bdabdbb60977/pyproject_hooks-1.3.3-py3-none-any.whl.metadata
+#8 8.723   Downloading pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+#8 8.849 Collecting requests<3.0,>=2.26 (from poetry)
+#8 8.849   Obtaining dependency information for requests<3.0,>=2.26 from https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl.metadata
+#8 8.916   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#8 9.023 Collecting requests-toolbelt<2.0.0,>=1.0.0 (from poetry)
+#8 9.023   Obtaining dependency information for requests-toolbelt<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata
+#8 9.096   Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+#8 9.224 Collecting shellingham<2.0,>=1.5 (from poetry)
+#8 9.231   Obtaining dependency information for shellingham<2.0,>=1.5 from https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl.metadata
+#8 9.303   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+#8 9.482 Collecting tomlkit<1.0.0,>=0.11.4 (from poetry)
+#8 9.485   Obtaining dependency information for tomlkit<1.0.0,>=0.11.4 from https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata
+#8 9.554   Downloading tomlkit-0.15.1-py3-none-any.whl.metadata (3.3 kB)
+#8 9.791 Collecting trove-classifiers>=2022.5.19 (from poetry)
+#8 9.804   Obtaining dependency information for trove-classifiers>=2022.5.19 from https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata
+#8 9.871   Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata (2.4 kB)
+#8 10.21 Collecting virtualenv>=20.26.6 (from poetry)
+#8 10.23   Obtaining dependency information for virtualenv>=20.26.6 from https://files.pythonhosted.org/packages/52/5b/799c3e5b8e04d5fa1c9b61a4c1f5079603e747205c7311b92abd30283df5/virtualenv-21.14.7-py3-none-any.whl.metadata
+#8 10.30   Downloading virtualenv-21.14.7-py3-none-any.whl.metadata (4.1 kB)
+#8 10.94 Collecting msgpack<2.0.0,>=0.5.2 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 10.94   Obtaining dependency information for msgpack<2.0.0,>=0.5.2 from https://files.pythonhosted.org/packages/aa/83/800570e6a22376eb8d599920f70aead4779a63611696f567477c4e85a70f/msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 11.01   Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+#8 11.16 Collecting filelock>=3.8.0 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 11.17   Obtaining dependency information for filelock>=3.8.0 from https://files.pythonhosted.org/packages/d7/8b/f837f52905395ba4510fe61f753c24833fb0a9c76e21267bb9f828b664a9/filelock-4.1.1-py3-none-any.whl.metadata
+#8 11.24   Downloading filelock-4.1.1-py3-none-any.whl.metadata (2.0 kB)
+#8 11.33 Collecting crashtest<0.5.0,>=0.4.1 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 11.33   Obtaining dependency information for crashtest<0.5.0,>=0.4.1 from https://files.pythonhosted.org/packages/b0/5c/3ba7d12e7a79566f97b8f954400926d7b6eb33bcdccc1315a857f200f1f1/crashtest-0.4.1-py3-none-any.whl.metadata
+#8 11.41   Downloading crashtest-0.4.1-py3-none-any.whl.metadata (1.1 kB)
+#8 15.25 Collecting rapidfuzz<4.0.0,>=3.0.0 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 15.26   Obtaining dependency information for rapidfuzz<4.0.0,>=3.0.0 from https://files.pythonhosted.org/packages/11/ae/a781ec62825990319483c82ef962b509e9ce22a67a9f97d63d70b2b175b9/rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 15.34   Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+#8 15.62 Collecting urllib3>=2.2.2 (from dulwich<2,>=0.25.0->poetry)
+#8 15.63   Obtaining dependency information for urllib3>=2.2.2 from https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl.metadata
+#8 15.71   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#8 15.82 Collecting typing_extensions>=4.6.0 (from dulwich<2,>=0.25.0->poetry)
+#8 15.83   Obtaining dependency information for typing_extensions>=4.6.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+#8 15.91   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#8 16.13 Collecting SecretStorage>=3.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.13   Obtaining dependency information for SecretStorage>=3.2 from https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl.metadata
+#8 16.21   Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)
+#8 16.29 Collecting jeepney>=0.4.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.29   Obtaining dependency information for jeepney>=0.4.2 from https://files.pythonhosted.org/packages/b2/a3/e137168c9c44d18eff0376253da9f1e9234d0239e0ee230d2fee6cea8e55/jeepney-0.9.0-py3-none-any.whl.metadata
+#8 16.37   Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+#8 16.59 Collecting importlib_metadata>=4.11.4 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.60   Obtaining dependency information for importlib_metadata>=4.11.4 from https://files.pythonhosted.org/packages/b3/55/ecca97ae19075f1fac62def77731e7f535e6c1fb8f92ff08160c5e6dade8/importlib_metadata-9.0.1-py3-none-any.whl.metadata
+#8 16.67   Downloading importlib_metadata-9.0.1-py3-none-any.whl.metadata (4.5 kB)
+#8 16.76 Collecting jaraco.classes (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.76   Obtaining dependency information for jaraco.classes from https://files.pythonhosted.org/packages/7f/66/b15ce62552d84bbfcec9a4873ab79d993a1dd4edb922cbfccae192bd5b5f/jaraco.classes-3.4.0-py3-none-any.whl.metadata
+#8 16.83   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+#8 16.93 Collecting jaraco.functools (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.94   Obtaining dependency information for jaraco.functools from https://files.pythonhosted.org/packages/02/36/ecc85bc96c273dc8a11273ed4782272975e6338d4a3e9228621175edf0e3/jaraco_functools-4.6.0-py3-none-any.whl.metadata
+#8 17.02   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+#8 17.11 Collecting jaraco.context (from keyring<26.0.0,>=25.1.0->poetry)
+#8 17.12   Obtaining dependency information for jaraco.context from https://files.pythonhosted.org/packages/f2/58/bc8954bda5fcda97bd7c19be11b85f91973d67a706ed4a3aec33e7de22db/jaraco_context-6.1.2-py3-none-any.whl.metadata
+#8 17.19   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+#8 17.32 Collecting httpx<1,>=0.27.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.33   Obtaining dependency information for httpx<1,>=0.27.0 from https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl.metadata
+#8 17.40   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+#8 17.92 Collecting backports.zstd>=1.0.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.92   Obtaining dependency information for backports.zstd>=1.0.0 from https://files.pythonhosted.org/packages/cf/c9/3eb6466013bbee7f12cf442507ca80d3e31ec1fd68156c57647518a47d27/backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 18.01   Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.8 kB)
+#8 19.09 Collecting charset_normalizer<4,>=2 (from requests<3.0,>=2.26->poetry)
+#8 19.10   Obtaining dependency information for charset_normalizer<4,>=2 from https://files.pythonhosted.org/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 19.17   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#8 19.40 Collecting idna<4,>=2.5 (from requests<3.0,>=2.26->poetry)
+#8 19.40   Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl.metadata
+#8 19.47   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#8 19.61 Collecting certifi>=2023.5.7 (from requests<3.0,>=2.26->poetry)
+#8 19.61   Obtaining dependency information for certifi>=2023.5.7 from https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl.metadata
+#8 19.69   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#8 19.90 Collecting distlib<1,>=0.4.3 (from virtualenv>=20.26.6->poetry)
+#8 19.90   Obtaining dependency information for distlib<1,>=0.4.3 from https://files.pythonhosted.org/packages/02/08/9c41fb51ab5b43eb21674aff13df270e8ba6c4b29c8624e328dc7a9482af/distlib-0.4.3-py2.py3-none-any.whl.metadata
+#8 19.97   Downloading distlib-0.4.3-py2.py3-none-any.whl.metadata (5.3 kB)
+#8 20.19 Collecting python-discovery>=1.6.1 (from virtualenv>=20.26.6->poetry)
+#8 20.19   Obtaining dependency information for python-discovery>=1.6.1 from https://files.pythonhosted.org/packages/61/3b/50ed32583bfffa737df67d33b9c15d7b25df232c55ab606d059f610ef6ca/python_discovery-1.6.2-py3-none-any.whl.metadata
+#8 20.27   Downloading python_discovery-1.6.2-py3-none-any.whl.metadata (5.1 kB)
+#8 20.61 Collecting anyio (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.61   Obtaining dependency information for anyio from https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl.metadata
+#8 20.69   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#8 20.91 Collecting httpcore==1.* (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.91   Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl.metadata
+#8 20.98   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+#8 21.20 Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 21.20   Obtaining dependency information for h11>=0.16 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+#8 21.28   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#8 21.62 Collecting zipp>=3.20 (from importlib_metadata>=4.11.4->keyring<26.0.0,>=25.1.0->poetry)
+#8 21.62   Obtaining dependency information for zipp>=3.20 from https://files.pythonhosted.org/packages/b5/98/df615823cd9419131ce19fba00de53a663794369e198aade064a244b385d/zipp-4.1.1-py3-none-any.whl.metadata
+#8 21.69   Downloading zipp-4.1.1-py3-none-any.whl.metadata (3.6 kB)
+#8 24.13 Collecting cryptography>=2.0 (from SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 24.13   Obtaining dependency information for cryptography>=2.0 from https://files.pythonhosted.org/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata
+#8 24.20   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+#8 24.58 Collecting more-itertools (from jaraco.classes->keyring<26.0.0,>=25.1.0->poetry)
+#8 24.58   Obtaining dependency information for more-itertools from https://files.pythonhosted.org/packages/e8/3d/1087453384dbde46a8c7f9356eead2c58be8a7bf156bca40243377c85715/more_itertools-11.1.0-py3-none-any.whl.metadata
+#8 24.65   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+#8 24.86 Collecting backports.tarfile (from jaraco.context->keyring<26.0.0,>=25.1.0->poetry)
+#8 24.86   Obtaining dependency information for backports.tarfile from https://files.pythonhosted.org/packages/b9/fa/123043af240e49752f1c4bd24da5053b6bd00cad78c2be53c0d1e8b975bc/backports.tarfile-1.2.0-py3-none-any.whl.metadata
+#8 24.93   Downloading backports.tarfile-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+#8 25.95 Collecting cffi>=2.0.0 (from cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 25.96   Obtaining dependency information for cffi>=2.0.0 from https://files.pythonhosted.org/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata
+#8 26.04   Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+#8 26.38 Collecting pycparser (from cffi>=2.0.0->cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 26.38   Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl.metadata
+#8 26.46   Downloading pycparser-3.11-py3-none-any.whl.metadata (8.2 kB)
+#8 26.58 Downloading poetry-2.5.1-py3-none-any.whl (307 kB)
+#8 26.96 Downloading poetry_core-2.5.0-py3-none-any.whl (413 kB)
+#8 27.47 Downloading poetry_plugin_export-1.10.1-py3-none-any.whl (13 kB)
+#8 27.56 Downloading build-1.6.1-py3-none-any.whl (31 kB)
+#8 27.66 Downloading cleo-2.1.0-py3-none-any.whl (78 kB)
+#8 27.83 Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl (1.5 MB)
+#8 29.74 Downloading fastjsonschema-2.22.2-py3-none-any.whl (27 kB)
+#8 29.83 Downloading findpython-0.8.0-py3-none-any.whl (21 kB)
+#8 29.92 Downloading installer-1.1.0-py3-none-any.whl (464 kB)
+#8 30.46 Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+#8 30.56 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#8 30.75 Downloading pkginfo-1.13-py3-none-any.whl (32 kB)
+#8 31.03 Downloading platformdirs-4.13.0-py3-none-any.whl (32 kB)
+#8 31.12 Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+#8 31.22 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#8 31.39 Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+#8 31.53 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+#8 31.62 Downloading tomlkit-0.15.1-py3-none-any.whl (49 kB)
+#8 31.72 Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl (14 kB)
+#8 31.81 Downloading virtualenv-21.14.7-py3-none-any.whl (5.5 MB)
+#8 37.40 Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (493 kB)
+#8 37.94 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#8 38.15 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+#8 38.47 Downloading crashtest-0.4.1-py3-none-any.whl (7.6 kB)
+#8 38.55 Downloading distlib-0.4.3-py2.py3-none-any.whl (470 kB)
+#8 39.09 Downloading filelock-4.1.1-py3-none-any.whl (132 kB)
+#8 39.28 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#8 39.43 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#8 39.57 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#8 39.74 Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+#8 39.83 Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+#8 39.93 Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (477 kB)
+#8 40.47 Downloading python_discovery-1.6.2-py3-none-any.whl (38 kB)
+#8 40.55 Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+#8 43.82 Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+#8 43.90 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#8 43.99 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#8 44.17 Downloading cachecontrol-0.14.4-py3-none-any.whl (22 kB)
+#8 44.27 Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+#8 44.35 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+#8 44.43 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+#8 44.52 Downloading pbs_installer-2026.10.3-py3-none-any.whl (83 kB)
+#8 44.69 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+#8 49.52 Downloading zipp-4.1.1-py3-none-any.whl (10 kB)
+#8 49.59 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#8 49.78 Downloading backports.tarfile-1.2.0-py3-none-any.whl (30 kB)
+#8 49.88 Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+#8 50.01 Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+#8 50.28 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#8 50.37 Downloading pycparser-3.11-py3-none-any.whl (51 kB)
+#8 50.95 Installing collected packages: trove-classifiers, distlib, zipp, urllib3, typing_extensions, tomlkit, shellingham, rapidfuzz, pyproject-hooks, pycparser, poetry-core, platformdirs, pkginfo, pbs-installer, packaging, msgpack, more-itertools, jeepney, installer, idna, h11, filelock, fastjsonschema, crashtest, charset_normalizer, certifi, backports.zstd, backports.tarfile, requests, python-discovery, jaraco.functools, jaraco.context, jaraco.classes, importlib_metadata, httpcore, findpython, dulwich, cleo, cffi, build, anyio, virtualenv, requests-toolbelt, httpx, cryptography, cachecontrol, SecretStorage, keyring, poetry, poetry-plugin-export
+#8 56.70 Successfully installed SecretStorage-3.5.0 anyio-4.15.1 backports.tarfile-1.2.0 backports.zstd-1.8.0 build-1.6.1 cachecontrol-0.14.4 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 cleo-2.1.0 crashtest-0.4.1 cryptography-50.0.2 distlib-0.4.3 dulwich-1.2.17 fastjsonschema-2.22.2 filelock-4.1.1 findpython-0.8.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 importlib_metadata-9.0.1 installer-1.1.0 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 keyring-25.7.0 more-itertools-11.1.0 msgpack-1.2.3 packaging-26.3 pbs-installer-2026.10.3 pkginfo-1.13 platformdirs-4.13.0 poetry-2.5.1 poetry-core-2.5.0 poetry-plugin-export-1.10.1 pycparser-3.11 pyproject-hooks-1.3.3 python-discovery-1.6.2 rapidfuzz-3.14.6 requests-2.34.2 requests-toolbelt-1.0.0 shellingham-1.5.4 tomlkit-0.15.1 trove-classifiers-2026.9.21.13 typing_extensions-4.16.0 urllib3-2.8.0 virtualenv-21.14.7 zipp-4.1.1
+#8 56.71 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 DONE 58.8s
+
+#9 [builder 5/6] RUN mkdir -p dist  && poetry export       --without-hashes       --format constraints.txt       --output dist/constraints.txt  && poetry run       python -m pip wheel         --isolated         --requirement dist/constraints.txt         --wheel-dir dist/vendor
+#9 2.525 Creating virtualenv counter-backend-9TtSrW0h-py3.11 in /root/.cache/pypoetry/virtualenvs
+#9 4.714 Ignoring colorama: markers 'python_version >= "3.11" and python_version < "4.0" and sys_platform == "win32"' don't match your environment
+#9 7.570 Collecting aiohttp==3.8.5 (from -r dist/constraints.txt (line 1))
+#9 8.279   Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+#9 8.412 Collecting aiosignal==1.3.1 (from -r dist/constraints.txt (line 2))
+#9 8.496   Downloading aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+#9 8.627 Collecting async-timeout==4.0.3 (from -r dist/constraints.txt (line 3))
+#9 8.709   Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+#9 8.814 Collecting attrs==23.1.0 (from -r dist/constraints.txt (line 4))
+#9 8.890   Downloading attrs-23.1.0-py3-none-any.whl.metadata (11 kB)
+#9 9.448 Collecting charset-normalizer==3.2.0 (from -r dist/constraints.txt (line 5))
+#9 9.516   Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+#9 9.864 Collecting frozenlist==1.4.0 (from -r dist/constraints.txt (line 7))
+#9 9.933   Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.2 kB)
+#9 10.04 Collecting idna==3.4 (from -r dist/constraints.txt (line 8))
+#9 10.11   Downloading idna-3.4-py3-none-any.whl.metadata (9.8 kB)
+#9 10.22 Collecting iniconfig==2.0.0 (from -r dist/constraints.txt (line 9))
+#9 10.30   Downloading iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+#9 11.88 Collecting multidict==6.0.4 (from -r dist/constraints.txt (line 10))
+#9 11.98   Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+#9 12.20 Collecting packaging==23.2 (from -r dist/constraints.txt (line 11))
+#9 12.27   Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+#9 12.41 Collecting pluggy==1.3.0 (from -r dist/constraints.txt (line 12))
+#9 12.49   Downloading pluggy-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+#9 12.68 Collecting pytest-aiohttp==1.0.5 (from -r dist/constraints.txt (line 13))
+#9 12.79   Downloading pytest_aiohttp-1.0.5-py3-none-any.whl.metadata (2.6 kB)
+#9 13.00 Collecting pytest-asyncio==0.21.1 (from -r dist/constraints.txt (line 14))
+#9 13.06   Downloading pytest_asyncio-0.21.1-py3-none-any.whl.metadata (4.0 kB)
+#9 13.42 Collecting pytest==7.4.3 (from -r dist/constraints.txt (line 15))
+#9 13.52   Downloading pytest-7.4.3-py3-none-any.whl.metadata (7.9 kB)
+#9 14.82 Collecting yarl==1.9.2 (from -r dist/constraints.txt (line 16))
+#9 14.90   Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (23 kB)
+#9 15.12 Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+#9 16.39    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 870.4 kB/s  0:00:01
+#9 16.48 Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+#9 16.57 Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+#9 16.91 Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+#9 17.13 Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+#9 17.52 Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+#9 17.62 Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+#9 17.74 Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (250 kB)
+#9 18.09 Downloading idna-3.4-py3-none-any.whl (61 kB)
+#9 18.23 Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+#9 18.36 Downloading packaging-23.2-py3-none-any.whl (53 kB)
+#9 18.50 Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
+#9 18.62 Downloading pytest_aiohttp-1.0.5-py3-none-any.whl (8.5 kB)
+#9 18.70 Downloading pytest_asyncio-0.21.1-py3-none-any.whl (13 kB)
+#9 18.83 Downloading pytest-7.4.3-py3-none-any.whl (325 kB)
+#9 19.33 Saved ./dist/vendor/aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.33 Saved ./dist/vendor/async_timeout-4.0.3-py3-none-any.whl
+#9 19.34 Saved ./dist/vendor/charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.35 Saved ./dist/vendor/multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.35 Saved ./dist/vendor/yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.35 Saved ./dist/vendor/aiosignal-1.3.1-py3-none-any.whl
+#9 19.35 Saved ./dist/vendor/attrs-23.1.0-py3-none-any.whl
+#9 19.36 Saved ./dist/vendor/frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 19.37 Saved ./dist/vendor/idna-3.4-py3-none-any.whl
+#9 19.37 Saved ./dist/vendor/iniconfig-2.0.0-py3-none-any.whl
+#9 19.39 Saved ./dist/vendor/packaging-23.2-py3-none-any.whl
+#9 19.39 Saved ./dist/vendor/pluggy-1.3.0-py3-none-any.whl
+#9 19.39 Saved ./dist/vendor/pytest_aiohttp-1.0.5-py3-none-any.whl
+#9 19.39 Saved ./dist/vendor/pytest_asyncio-0.21.1-py3-none-any.whl
+#9 19.39 Saved ./dist/vendor/pytest-7.4.3-py3-none-any.whl
+#9 DONE 20.1s
+
+#10 [builder 6/6] RUN poetry build --format wheel
+#10 2.105 Building counter-backend (0.1.0)
+#10 2.221 Building wheel
+#10 2.235   - Building wheel
+#10 2.239   - Built counter_backend-0.1.0-py3-none-any.whl
+#10 DONE 2.6s
+
+#11 [stage-1 3/4] COPY --from=builder /app/dist ./dist
+#11 DONE 0.3s
+
+#12 [stage-1 4/4] RUN packages=$(      find 'dist' 'dist/vendor'         -maxdepth 1         -iname '*.whl'         -exec realpath {} \;         -print0       | xargs --null)  && python -m pip install       --isolated       --no-index       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --no-deps       --break-system-packages       --progress-bar off       ${packages}
+#12 2.867 Processing ./dist/counter_backend-0.1.0-py3-none-any.whl
+#12 2.898 Processing ./dist/vendor/attrs-23.1.0-py3-none-any.whl
+#12 2.920 Processing ./dist/vendor/async_timeout-4.0.3-py3-none-any.whl
+#12 2.926 Processing ./dist/vendor/packaging-23.2-py3-none-any.whl
+#12 2.939 Processing ./dist/vendor/pytest-7.4.3-py3-none-any.whl
+#12 2.954 Processing ./dist/vendor/pytest_asyncio-0.21.1-py3-none-any.whl
+#12 2.965 Processing ./dist/vendor/pluggy-1.3.0-py3-none-any.whl
+#12 2.974 Processing ./dist/vendor/multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#12 2.988 Processing ./dist/vendor/aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#12 3.010 Processing ./dist/vendor/yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#12 3.030 Processing ./dist/vendor/charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#12 3.050 Processing ./dist/vendor/frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#12 3.060 Processing ./dist/vendor/idna-3.4-py3-none-any.whl
+#12 3.070 Processing ./dist/vendor/iniconfig-2.0.0-py3-none-any.whl
+#12 3.075 Processing ./dist/vendor/pytest_aiohttp-1.0.5-py3-none-any.whl
+#12 3.092 Processing ./dist/vendor/aiosignal-1.3.1-py3-none-any.whl
+#12 3.174 Installing collected packages: yarl, pytest-asyncio, pytest-aiohttp, pytest, pluggy, packaging, multidict, iniconfig, idna, frozenlist, counter-backend, charset-normalizer, attrs, async-timeout, aiosignal, aiohttp
+#12 4.398 Successfully installed aiohttp-3.8.5 aiosignal-1.3.1 async-timeout-4.0.3 attrs-23.1.0 charset-normalizer-3.2.0 counter-backend-0.1.0 frozenlist-1.4.0 idna-3.4 iniconfig-2.0.0 multidict-6.0.4 packaging-23.2 pluggy-1.3.0 pytest-7.4.3 pytest-aiohttp-1.0.5 pytest-asyncio-0.21.1 yarl-1.9.2
+#12 4.403 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#12 DONE 4.9s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 2.4s done
+#13 exporting manifest sha256:72631daf0d31ced716e002a423b4a8eea7b4b1103b427fb6be25e2cdf5e528fb
+#13 exporting manifest sha256:72631daf0d31ced716e002a423b4a8eea7b4b1103b427fb6be25e2cdf5e528fb 0.1s done
+#13 exporting config sha256:57a057eb3c01f2f6705f7956b2c4e350a3e560f21daa617a52fecdf68b7f00e9
+#13 exporting config sha256:57a057eb3c01f2f6705f7956b2c4e350a3e560f21daa617a52fecdf68b7f00e9 0.1s done
+#13 exporting attestation manifest sha256:13534e6bc64f3ada1dfa53df22b303cc367fb295acff6e66baf03ba07298f935
+#13 exporting attestation manifest sha256:13534e6bc64f3ada1dfa53df22b303cc367fb295acff6e66baf03ba07298f935 0.1s done
+#13 exporting manifest list sha256:50213f6f3b9fe077df05b3723de6e4e1fad96eb953ada1a907b5f4b22cfbc953
+#13 exporting manifest list sha256:50213f6f3b9fe077df05b3723de6e4e1fad96eb953ada1a907b5f4b22cfbc953 0.1s done
+#13 naming to docker.io/library/counter:multistage 0.0s done
+#13 unpacking to docker.io/library/counter:multistage
+#13 unpacking to docker.io/library/counter:multistage 0.8s done
+#13 DONE 3.8s
+f54fe81389f94905cbbc6958219ff277046541cc5b13a9391f2d44fd88d92263
+GET
+{"count": 0} [200]
+POST
+{"count": 1} [201]
+GET
+{"count": 1} [200]
+id
+uid=0(root) gid=0(root) groups=0(root)
+c-multistage
+=== nonroot ===
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.nonroot
+#1 transferring dockerfile: 1.46kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11.6-slim-bookworm
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 111B done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [builder 1/6] FROM docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b
+#5 resolve docker.io/library/python:3.11.6-slim-bookworm@sha256:cc758519481092eb5a4a5ab0c1b303e288880d59afc601958d19e95b300bc86b 0.1s done
+#5 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 79.44kB 0.0s done
+#4 DONE 0.1s
+
+#6 [builder 2/6] WORKDIR /app
+#6 CACHED
+
+#7 [builder 3/6] COPY . .
+#7 DONE 0.2s
+
+#8 [builder 4/6] RUN python -m pip install       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --break-system-packages       --progress-bar off       poetry poetry-plugin-export setuptools wheel
+#8 3.542 Collecting poetry
+#8 3.547   Obtaining dependency information for poetry from https://files.pythonhosted.org/packages/d6/7a/6b4fafb693200fc24fad8453ed200b902ab3fe56743cdcc756a6fae23ddf/poetry-2.5.1-py3-none-any.whl.metadata
+#8 3.924   Downloading poetry-2.5.1-py3-none-any.whl.metadata (7.6 kB)
+#8 4.030 Collecting poetry-plugin-export
+#8 4.036   Obtaining dependency information for poetry-plugin-export from https://files.pythonhosted.org/packages/07/74/494c8132147ec0e8f7908511b88072caf5affa7ce14562bbde7af99e60bd/poetry_plugin_export-1.10.1-py3-none-any.whl.metadata
+#8 4.113   Downloading poetry_plugin_export-1.10.1-py3-none-any.whl.metadata (3.7 kB)
+#8 4.128 Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (65.5.1)
+#8 4.132 Requirement already satisfied: wheel in /usr/local/lib/python3.11/site-packages (0.42.0)
+#8 4.270 Collecting build<2.0.0,>=1.2.1 (from poetry)
+#8 4.270   Obtaining dependency information for build<2.0.0,>=1.2.1 from https://files.pythonhosted.org/packages/ad/9b/9fb3585dabcd73a1b2a6267f63f62649347c9e6d072c9fde365b105abb2c/build-1.6.1-py3-none-any.whl.metadata
+#8 4.350   Downloading build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+#8 4.454 Collecting cachecontrol[filecache]<0.15.0,>=0.14.0 (from poetry)
+#8 4.454   Obtaining dependency information for cachecontrol[filecache]<0.15.0,>=0.14.0 from https://files.pythonhosted.org/packages/ef/79/c45f2d53efe6ada1110cf6f9fca095e4ff47a0454444aefdde6ac4789179/cachecontrol-0.14.4-py3-none-any.whl.metadata
+#8 4.533   Downloading cachecontrol-0.14.4-py3-none-any.whl.metadata (3.1 kB)
+#8 4.641 Collecting cleo<3.0.0,>=2.1.0 (from poetry)
+#8 4.641   Obtaining dependency information for cleo<3.0.0,>=2.1.0 from https://files.pythonhosted.org/packages/2d/f5/6bbead8b880620e5a99e0e4bb9e22e67cca16ff48d54105302a3e7821096/cleo-2.1.0-py3-none-any.whl.metadata
+#8 4.716   Downloading cleo-2.1.0-py3-none-any.whl.metadata (12 kB)
+#8 5.754 Collecting dulwich<2,>=0.25.0 (from poetry)
+#8 5.763   Obtaining dependency information for dulwich<2,>=0.25.0 from https://files.pythonhosted.org/packages/26/5b/aa627795c09db3b23679af7afc96c87fdbf62701ec907216e75b0e067c25/dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata
+#8 5.838   Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+#8 5.924 Collecting fastjsonschema<3.0.0,>=2.18.0 (from poetry)
+#8 5.929   Obtaining dependency information for fastjsonschema<3.0.0,>=2.18.0 from https://files.pythonhosted.org/packages/49/82/2755c7c982086f00d4dab85bc120ec35045a9fc2191893a6ce79afe94443/fastjsonschema-2.22.2-py3-none-any.whl.metadata
+#8 5.995   Downloading fastjsonschema-2.22.2-py3-none-any.whl.metadata (2.1 kB)
+#8 6.085 Collecting findpython<0.9.0,>=0.6.2 (from poetry)
+#8 6.096   Obtaining dependency information for findpython<0.9.0,>=0.6.2 from https://files.pythonhosted.org/packages/bb/a5/fae2000239a1f0225c9f31ec5f790f465d3cf135e79937ad19c876303e21/findpython-0.8.0-py3-none-any.whl.metadata
+#8 6.163   Downloading findpython-0.8.0-py3-none-any.whl.metadata (5.4 kB)
+#8 6.252 Collecting installer<2.0.0,>=0.7.0 (from poetry)
+#8 6.253   Obtaining dependency information for installer<2.0.0,>=0.7.0 from https://files.pythonhosted.org/packages/d7/7a/63547a792a12148882205d79e07644091d5b7690f40c2bb9d41452a8bdc2/installer-1.1.0-py3-none-any.whl.metadata
+#8 6.328   Downloading installer-1.1.0-py3-none-any.whl.metadata (1.3 kB)
+#8 6.555 Collecting keyring<26.0.0,>=25.1.0 (from poetry)
+#8 6.555   Obtaining dependency information for keyring<26.0.0,>=25.1.0 from https://files.pythonhosted.org/packages/81/db/e655086b7f3a705df045bf0933bdd9c2f79bb3c97bfef1384598bb79a217/keyring-25.7.0-py3-none-any.whl.metadata
+#8 6.627   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+#8 6.799 Collecting packaging>=24.2 (from poetry)
+#8 6.799   Obtaining dependency information for packaging>=24.2 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+#8 6.869   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#8 7.009 Collecting pbs-installer[download,install]>=2025.6.10 (from poetry)
+#8 7.009   Obtaining dependency information for pbs-installer[download,install]>=2025.6.10 from https://files.pythonhosted.org/packages/99/50/4619dc223d7f3866857af6189ead37ee02d0000f1394e5167eb08e3b2021/pbs_installer-2026.10.3-py3-none-any.whl.metadata
+#8 7.079   Downloading pbs_installer-2026.10.3-py3-none-any.whl.metadata (1.2 kB)
+#8 7.181 Collecting pkginfo<2.0,>=1.12 (from poetry)
+#8 7.188   Obtaining dependency information for pkginfo<2.0,>=1.12 from https://files.pythonhosted.org/packages/ed/ad/2e9e8a7bb014758af9453b3d818848d50852592296aceb8817f2a937fa71/pkginfo-1.13-py3-none-any.whl.metadata
+#8 7.264   Downloading pkginfo-1.13-py3-none-any.whl.metadata (13 kB)
+#8 7.603 Collecting platformdirs<5,>=3.0.0 (from poetry)
+#8 7.612   Obtaining dependency information for platformdirs<5,>=3.0.0 from https://files.pythonhosted.org/packages/8d/15/1633010b26e88e872c93b67c0b6c5e174fb74cb6fb5c1472b4d51d4a8f22/platformdirs-4.13.0-py3-none-any.whl.metadata
+#8 7.682   Downloading platformdirs-4.13.0-py3-none-any.whl.metadata (5.5 kB)
+#8 7.822 Collecting poetry-core==2.5.0 (from poetry)
+#8 7.834   Obtaining dependency information for poetry-core==2.5.0 from https://files.pythonhosted.org/packages/b7/25/7ed0a2ea4fe12f7fd0394387b5debbcd6fdbd06e5ac9daab96ba11471da8/poetry_core-2.5.0-py3-none-any.whl.metadata
+#8 7.898   Downloading poetry_core-2.5.0-py3-none-any.whl.metadata (3.8 kB)
+#8 7.982 Collecting pyproject-hooks<2.0.0,>=1.0.0 (from poetry)
+#8 7.995   Obtaining dependency information for pyproject-hooks<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/85/11/044d1ae1b4ec0d7af88ee5bc91e081be1022533032b906a7bdabdbb60977/pyproject_hooks-1.3.3-py3-none-any.whl.metadata
+#8 8.062   Downloading pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+#8 8.206 Collecting requests<3.0,>=2.26 (from poetry)
+#8 8.214   Obtaining dependency information for requests<3.0,>=2.26 from https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl.metadata
+#8 8.285   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#8 8.376 Collecting requests-toolbelt<2.0.0,>=1.0.0 (from poetry)
+#8 8.376   Obtaining dependency information for requests-toolbelt<2.0.0,>=1.0.0 from https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata
+#8 8.460   Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+#8 8.555 Collecting shellingham<2.0,>=1.5 (from poetry)
+#8 8.567   Obtaining dependency information for shellingham<2.0,>=1.5 from https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl.metadata
+#8 8.638   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+#8 8.764 Collecting tomlkit<1.0.0,>=0.11.4 (from poetry)
+#8 8.774   Obtaining dependency information for tomlkit<1.0.0,>=0.11.4 from https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata
+#8 8.846   Downloading tomlkit-0.15.1-py3-none-any.whl.metadata (3.3 kB)
+#8 8.975 Collecting trove-classifiers>=2022.5.19 (from poetry)
+#8 8.977   Obtaining dependency information for trove-classifiers>=2022.5.19 from https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata
+#8 9.070   Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata (2.4 kB)
+#8 9.420 Collecting virtualenv>=20.26.6 (from poetry)
+#8 9.420   Obtaining dependency information for virtualenv>=20.26.6 from https://files.pythonhosted.org/packages/52/5b/799c3e5b8e04d5fa1c9b61a4c1f5079603e747205c7311b92abd30283df5/virtualenv-21.14.7-py3-none-any.whl.metadata
+#8 9.496   Downloading virtualenv-21.14.7-py3-none-any.whl.metadata (4.1 kB)
+#8 10.14 Collecting msgpack<2.0.0,>=0.5.2 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 10.15   Obtaining dependency information for msgpack<2.0.0,>=0.5.2 from https://files.pythonhosted.org/packages/aa/83/800570e6a22376eb8d599920f70aead4779a63611696f567477c4e85a70f/msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 10.23   Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+#8 10.37 Collecting filelock>=3.8.0 (from cachecontrol[filecache]<0.15.0,>=0.14.0->poetry)
+#8 10.38   Obtaining dependency information for filelock>=3.8.0 from https://files.pythonhosted.org/packages/d7/8b/f837f52905395ba4510fe61f753c24833fb0a9c76e21267bb9f828b664a9/filelock-4.1.1-py3-none-any.whl.metadata
+#8 10.45   Downloading filelock-4.1.1-py3-none-any.whl.metadata (2.0 kB)
+#8 10.54 Collecting crashtest<0.5.0,>=0.4.1 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 10.55   Obtaining dependency information for crashtest<0.5.0,>=0.4.1 from https://files.pythonhosted.org/packages/b0/5c/3ba7d12e7a79566f97b8f954400926d7b6eb33bcdccc1315a857f200f1f1/crashtest-0.4.1-py3-none-any.whl.metadata
+#8 10.62   Downloading crashtest-0.4.1-py3-none-any.whl.metadata (1.1 kB)
+#8 14.65 Collecting rapidfuzz<4.0.0,>=3.0.0 (from cleo<3.0.0,>=2.1.0->poetry)
+#8 14.67   Obtaining dependency information for rapidfuzz<4.0.0,>=3.0.0 from https://files.pythonhosted.org/packages/11/ae/a781ec62825990319483c82ef962b509e9ce22a67a9f97d63d70b2b175b9/rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 14.74   Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+#8 15.05 Collecting urllib3>=2.2.2 (from dulwich<2,>=0.25.0->poetry)
+#8 15.05   Obtaining dependency information for urllib3>=2.2.2 from https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl.metadata
+#8 15.14   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#8 15.24 Collecting typing_extensions>=4.6.0 (from dulwich<2,>=0.25.0->poetry)
+#8 15.26   Obtaining dependency information for typing_extensions>=4.6.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+#8 15.40   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#8 15.62 Collecting SecretStorage>=3.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 15.62   Obtaining dependency information for SecretStorage>=3.2 from https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl.metadata
+#8 15.70   Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)
+#8 15.80 Collecting jeepney>=0.4.2 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 15.81   Obtaining dependency information for jeepney>=0.4.2 from https://files.pythonhosted.org/packages/b2/a3/e137168c9c44d18eff0376253da9f1e9234d0239e0ee230d2fee6cea8e55/jeepney-0.9.0-py3-none-any.whl.metadata
+#8 15.87   Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+#8 16.12 Collecting importlib_metadata>=4.11.4 (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.14   Obtaining dependency information for importlib_metadata>=4.11.4 from https://files.pythonhosted.org/packages/b3/55/ecca97ae19075f1fac62def77731e7f535e6c1fb8f92ff08160c5e6dade8/importlib_metadata-9.0.1-py3-none-any.whl.metadata
+#8 16.21   Downloading importlib_metadata-9.0.1-py3-none-any.whl.metadata (4.5 kB)
+#8 16.29 Collecting jaraco.classes (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.30   Obtaining dependency information for jaraco.classes from https://files.pythonhosted.org/packages/7f/66/b15ce62552d84bbfcec9a4873ab79d993a1dd4edb922cbfccae192bd5b5f/jaraco.classes-3.4.0-py3-none-any.whl.metadata
+#8 16.37   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+#8 16.51 Collecting jaraco.functools (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.52   Obtaining dependency information for jaraco.functools from https://files.pythonhosted.org/packages/02/36/ecc85bc96c273dc8a11273ed4782272975e6338d4a3e9228621175edf0e3/jaraco_functools-4.6.0-py3-none-any.whl.metadata
+#8 16.62   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+#8 16.76 Collecting jaraco.context (from keyring<26.0.0,>=25.1.0->poetry)
+#8 16.79   Obtaining dependency information for jaraco.context from https://files.pythonhosted.org/packages/f2/58/bc8954bda5fcda97bd7c19be11b85f91973d67a706ed4a3aec33e7de22db/jaraco_context-6.1.2-py3-none-any.whl.metadata
+#8 16.87   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+#8 17.06 Collecting httpx<1,>=0.27.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.07   Obtaining dependency information for httpx<1,>=0.27.0 from https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl.metadata
+#8 17.15   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+#8 17.70 Collecting backports.zstd>=1.0.0 (from pbs-installer[download,install]>=2025.6.10->poetry)
+#8 17.70   Obtaining dependency information for backports.zstd>=1.0.0 from https://files.pythonhosted.org/packages/cf/c9/3eb6466013bbee7f12cf442507ca80d3e31ec1fd68156c57647518a47d27/backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 17.77   Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.8 kB)
+#8 18.69 Collecting charset_normalizer<4,>=2 (from requests<3.0,>=2.26->poetry)
+#8 18.70   Obtaining dependency information for charset_normalizer<4,>=2 from https://files.pythonhosted.org/packages/e4/ed/cf505d3011ffceb12c2067a7a5d3cfe92b875d4d44bb0ff0d69375e2c184/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+#8 18.79   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#8 19.05 Collecting idna<4,>=2.5 (from requests<3.0,>=2.26->poetry)
+#8 19.05   Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl.metadata
+#8 19.12   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#8 19.24 Collecting certifi>=2023.5.7 (from requests<3.0,>=2.26->poetry)
+#8 19.26   Obtaining dependency information for certifi>=2023.5.7 from https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl.metadata
+#8 19.33   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#8 19.49 Collecting distlib<1,>=0.4.3 (from virtualenv>=20.26.6->poetry)
+#8 19.49   Obtaining dependency information for distlib<1,>=0.4.3 from https://files.pythonhosted.org/packages/02/08/9c41fb51ab5b43eb21674aff13df270e8ba6c4b29c8624e328dc7a9482af/distlib-0.4.3-py2.py3-none-any.whl.metadata
+#8 19.58   Downloading distlib-0.4.3-py2.py3-none-any.whl.metadata (5.3 kB)
+#8 19.76 Collecting python-discovery>=1.6.1 (from virtualenv>=20.26.6->poetry)
+#8 19.76   Obtaining dependency information for python-discovery>=1.6.1 from https://files.pythonhosted.org/packages/61/3b/50ed32583bfffa737df67d33b9c15d7b25df232c55ab606d059f610ef6ca/python_discovery-1.6.2-py3-none-any.whl.metadata
+#8 19.84   Downloading python_discovery-1.6.2-py3-none-any.whl.metadata (5.1 kB)
+#8 20.09 Collecting anyio (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.10   Obtaining dependency information for anyio from https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl.metadata
+#8 20.17   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#8 20.28 Collecting httpcore==1.* (from httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.28   Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl.metadata
+#8 20.35   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+#8 20.45 Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.27.0->pbs-installer[download,install]>=2025.6.10->poetry)
+#8 20.45   Obtaining dependency information for h11>=0.16 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+#8 20.52   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#8 20.68 Collecting zipp>=3.20 (from importlib_metadata>=4.11.4->keyring<26.0.0,>=25.1.0->poetry)
+#8 20.68   Obtaining dependency information for zipp>=3.20 from https://files.pythonhosted.org/packages/b5/98/df615823cd9419131ce19fba00de53a663794369e198aade064a244b385d/zipp-4.1.1-py3-none-any.whl.metadata
+#8 20.76   Downloading zipp-4.1.1-py3-none-any.whl.metadata (3.6 kB)
+#8 22.25 Collecting cryptography>=2.0 (from SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.26   Obtaining dependency information for cryptography>=2.0 from https://files.pythonhosted.org/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata
+#8 22.33   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+#8 22.64 Collecting more-itertools (from jaraco.classes->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.65   Obtaining dependency information for more-itertools from https://files.pythonhosted.org/packages/e8/3d/1087453384dbde46a8c7f9356eead2c58be8a7bf156bca40243377c85715/more_itertools-11.1.0-py3-none-any.whl.metadata
+#8 22.72   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+#8 22.91 Collecting backports.tarfile (from jaraco.context->keyring<26.0.0,>=25.1.0->poetry)
+#8 22.91   Obtaining dependency information for backports.tarfile from https://files.pythonhosted.org/packages/b9/fa/123043af240e49752f1c4bd24da5053b6bd00cad78c2be53c0d1e8b975bc/backports.tarfile-1.2.0-py3-none-any.whl.metadata
+#8 22.99   Downloading backports.tarfile-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+#8 23.93 Collecting cffi>=2.0.0 (from cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 23.94   Obtaining dependency information for cffi>=2.0.0 from https://files.pythonhosted.org/packages/f7/a4/4399daaf8f7dfee9d7c3327fdb0426ee041cc63edc358b93911ceb2bfc7a/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata
+#8 24.02   Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+#8 24.24 Collecting pycparser (from cffi>=2.0.0->cryptography>=2.0->SecretStorage>=3.2->keyring<26.0.0,>=25.1.0->poetry)
+#8 24.24   Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl.metadata
+#8 24.32   Downloading pycparser-3.11-py3-none-any.whl.metadata (8.2 kB)
+#8 24.46 Downloading poetry-2.5.1-py3-none-any.whl (307 kB)
+#8 24.87 Downloading poetry_core-2.5.0-py3-none-any.whl (413 kB)
+#8 25.31 Downloading poetry_plugin_export-1.10.1-py3-none-any.whl (13 kB)
+#8 25.38 Downloading build-1.6.1-py3-none-any.whl (31 kB)
+#8 25.45 Downloading cleo-2.1.0-py3-none-any.whl (78 kB)
+#8 25.61 Downloading dulwich-1.2.17-cp311-cp311-manylinux_2_28_x86_64.whl (1.5 MB)
+#8 27.31 Downloading fastjsonschema-2.22.2-py3-none-any.whl (27 kB)
+#8 27.41 Downloading findpython-0.8.0-py3-none-any.whl (21 kB)
+#8 27.51 Downloading installer-1.1.0-py3-none-any.whl (464 kB)
+#8 28.04 Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+#8 28.12 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#8 28.33 Downloading pkginfo-1.13-py3-none-any.whl (32 kB)
+#8 28.40 Downloading platformdirs-4.13.0-py3-none-any.whl (32 kB)
+#8 28.51 Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+#8 28.61 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#8 28.74 Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+#8 28.85 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+#8 28.93 Downloading tomlkit-0.15.1-py3-none-any.whl (49 kB)
+#8 29.03 Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl (14 kB)
+#8 29.10 Downloading virtualenv-21.14.7-py3-none-any.whl (5.5 MB)
+#8 35.84 Downloading backports_zstd-1.8.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (493 kB)
+#8 36.72 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#8 36.94 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+#8 37.26 Downloading crashtest-0.4.1-py3-none-any.whl (7.6 kB)
+#8 37.34 Downloading distlib-0.4.3-py2.py3-none-any.whl (470 kB)
+#8 37.89 Downloading filelock-4.1.1-py3-none-any.whl (132 kB)
+#8 38.09 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#8 38.22 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#8 38.36 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#8 38.48 Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+#8 38.57 Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+#8 38.65 Downloading msgpack-1.2.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (477 kB)
+#8 39.19 Downloading python_discovery-1.6.2-py3-none-any.whl (38 kB)
+#8 39.28 Downloading rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+#8 42.51 Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+#8 42.59 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#8 42.68 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#8 42.86 Downloading cachecontrol-0.14.4-py3-none-any.whl (22 kB)
+#8 42.95 Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+#8 43.02 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+#8 43.10 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+#8 43.19 Downloading pbs_installer-2026.10.3-py3-none-any.whl (83 kB)
+#8 43.34 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+#8 48.40 Downloading zipp-4.1.1-py3-none-any.whl (10 kB)
+#8 48.47 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#8 48.68 Downloading backports.tarfile-1.2.0-py3-none-any.whl (30 kB)
+#8 48.76 Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+#8 48.90 Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+#8 49.19 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#8 49.27 Downloading pycparser-3.11-py3-none-any.whl (51 kB)
+#8 49.92 Installing collected packages: trove-classifiers, distlib, zipp, urllib3, typing_extensions, tomlkit, shellingham, rapidfuzz, pyproject-hooks, pycparser, poetry-core, platformdirs, pkginfo, pbs-installer, packaging, msgpack, more-itertools, jeepney, installer, idna, h11, filelock, fastjsonschema, crashtest, charset_normalizer, certifi, backports.zstd, backports.tarfile, requests, python-discovery, jaraco.functools, jaraco.context, jaraco.classes, importlib_metadata, httpcore, findpython, dulwich, cleo, cffi, build, anyio, virtualenv, requests-toolbelt, httpx, cryptography, cachecontrol, SecretStorage, keyring, poetry, poetry-plugin-export
+#8 57.01 Successfully installed SecretStorage-3.5.0 anyio-4.15.1 backports.tarfile-1.2.0 backports.zstd-1.8.0 build-1.6.1 cachecontrol-0.14.4 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 cleo-2.1.0 crashtest-0.4.1 cryptography-50.0.2 distlib-0.4.3 dulwich-1.2.17 fastjsonschema-2.22.2 filelock-4.1.1 findpython-0.8.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 importlib_metadata-9.0.1 installer-1.1.0 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 keyring-25.7.0 more-itertools-11.1.0 msgpack-1.2.3 packaging-26.3 pbs-installer-2026.10.3 pkginfo-1.13 platformdirs-4.13.0 poetry-2.5.1 poetry-core-2.5.0 poetry-plugin-export-1.10.1 pycparser-3.11 pyproject-hooks-1.3.3 python-discovery-1.6.2 rapidfuzz-3.14.6 requests-2.34.2 requests-toolbelt-1.0.0 shellingham-1.5.4 tomlkit-0.15.1 trove-classifiers-2026.9.21.13 typing_extensions-4.16.0 urllib3-2.8.0 virtualenv-21.14.7 zipp-4.1.1
+#8 57.02 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 DONE 58.9s
+
+#9 [builder 5/6] RUN mkdir -p dist  && poetry export       --without-hashes       --format constraints.txt       --output dist/constraints.txt  && poetry run       python -m pip wheel         --isolated         --requirement dist/constraints.txt         --wheel-dir dist/vendor
+#9 2.716 Creating virtualenv counter-backend-9TtSrW0h-py3.11 in /root/.cache/pypoetry/virtualenvs
+#9 5.906 Ignoring colorama: markers 'python_version >= "3.11" and python_version < "4.0" and sys_platform == "win32"' don't match your environment
+#9 9.497 Collecting aiohttp==3.8.5 (from -r dist/constraints.txt (line 1))
+#9 9.999   Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+#9 10.14 Collecting aiosignal==1.3.1 (from -r dist/constraints.txt (line 2))
+#9 10.22   Downloading aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+#9 10.40 Collecting async-timeout==4.0.3 (from -r dist/constraints.txt (line 3))
+#9 10.50   Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+#9 10.62 Collecting attrs==23.1.0 (from -r dist/constraints.txt (line 4))
+#9 10.69   Downloading attrs-23.1.0-py3-none-any.whl.metadata (11 kB)
+#9 11.26 Collecting charset-normalizer==3.2.0 (from -r dist/constraints.txt (line 5))
+#9 11.35   Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+#9 12.35 Collecting frozenlist==1.4.0 (from -r dist/constraints.txt (line 7))
+#9 12.43   Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.2 kB)
+#9 13.00 Collecting idna==3.4 (from -r dist/constraints.txt (line 8))
+#9 13.07   Downloading idna-3.4-py3-none-any.whl.metadata (9.8 kB)
+#9 13.42 Collecting iniconfig==2.0.0 (from -r dist/constraints.txt (line 9))
+#9 13.49   Downloading iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+#9 14.82 Collecting multidict==6.0.4 (from -r dist/constraints.txt (line 10))
+#9 14.90   Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+#9 15.10 Collecting packaging==23.2 (from -r dist/constraints.txt (line 11))
+#9 15.18   Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+#9 15.44 Collecting pluggy==1.3.0 (from -r dist/constraints.txt (line 12))
+#9 15.55   Downloading pluggy-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+#9 16.00 Collecting pytest-aiohttp==1.0.5 (from -r dist/constraints.txt (line 13))
+#9 16.08   Downloading pytest_aiohttp-1.0.5-py3-none-any.whl.metadata (2.6 kB)
+#9 16.45 Collecting pytest-asyncio==0.21.1 (from -r dist/constraints.txt (line 14))
+#9 16.52   Downloading pytest_asyncio-0.21.1-py3-none-any.whl.metadata (4.0 kB)
+#9 16.83 Collecting pytest==7.4.3 (from -r dist/constraints.txt (line 15))
+#9 16.89   Downloading pytest-7.4.3-py3-none-any.whl.metadata (7.9 kB)
+#9 17.95 Collecting yarl==1.9.2 (from -r dist/constraints.txt (line 16))
+#9 18.04   Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (23 kB)
+#9 18.20 Downloading aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+#9 19.46    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 847.1 kB/s  0:00:01
+#9 19.54 Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+#9 19.62 Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+#9 19.97 Downloading multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (117 kB)
+#9 20.18 Downloading yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+#9 20.57 Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+#9 20.67 Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+#9 20.82 Downloading frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (250 kB)
+#9 21.17 Downloading idna-3.4-py3-none-any.whl (61 kB)
+#9 21.29 Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+#9 21.40 Downloading packaging-23.2-py3-none-any.whl (53 kB)
+#9 21.52 Downloading pluggy-1.3.0-py3-none-any.whl (18 kB)
+#9 21.63 Downloading pytest_aiohttp-1.0.5-py3-none-any.whl (8.5 kB)
+#9 21.73 Downloading pytest_asyncio-0.21.1-py3-none-any.whl (13 kB)
+#9 21.84 Downloading pytest-7.4.3-py3-none-any.whl (325 kB)
+#9 22.26 Saved ./dist/vendor/aiohttp-3.8.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 22.27 Saved ./dist/vendor/async_timeout-4.0.3-py3-none-any.whl
+#9 22.27 Saved ./dist/vendor/charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 22.31 Saved ./dist/vendor/multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 22.31 Saved ./dist/vendor/yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 22.31 Saved ./dist/vendor/aiosignal-1.3.1-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/attrs-23.1.0-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#9 22.31 Saved ./dist/vendor/idna-3.4-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/iniconfig-2.0.0-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/packaging-23.2-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/pluggy-1.3.0-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/pytest_aiohttp-1.0.5-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/pytest_asyncio-0.21.1-py3-none-any.whl
+#9 22.31 Saved ./dist/vendor/pytest-7.4.3-py3-none-any.whl
+#9 DONE 22.8s
+
+#10 [builder 6/6] RUN poetry build --format wheel
+#10 1.681 Building counter-backend (0.1.0)
+#10 1.855 Building wheel
+#10 1.859   - Building wheel
+#10 1.888   - Built counter_backend-0.1.0-py3-none-any.whl
+#10 DONE 2.2s
+
+#11 [stage-1 3/5] COPY --from=builder /app/dist ./dist
+#11 CACHED
+
+#12 [stage-1 4/5] RUN packages=$(      find 'dist' 'dist/vendor'         -maxdepth 1         -iname '*.whl'         -exec realpath {} \;         -print0       | xargs --null)  && python -m pip install       --isolated       --no-index       --no-color       --no-cache-dir       --disable-pip-version-check       --no-python-version-warning       --no-warn-script-location       --no-deps       --break-system-packages       --progress-bar off       ${packages}
+#12 CACHED
+
+#13 [stage-1 5/5] RUN addgroup --system --gid 10001 app  && adduser --system --uid 10001 --ingroup app --no-create-home app
+#13 0.514 Adding group `app' (GID 10001) ...
+#13 0.595 Done.
+#13 0.634 Adding system user `app' (UID 10001) ...
+#13 0.634 Adding new user `app' (UID 10001) with group `app' ...
+#13 0.691 useradd warning: app's uid 10001 is greater than SYS_UID_MAX 999
+#13 0.738 Not creating `/nonexistent'.
+#13 DONE 0.9s
+
+#14 exporting to image
+#14 exporting layers
+#14 exporting layers 0.5s done
+#14 exporting manifest sha256:6db6015f4147b8ccbf99fe226315b12837ff43da1ae867440aef2c084838df97
+#14 exporting manifest sha256:6db6015f4147b8ccbf99fe226315b12837ff43da1ae867440aef2c084838df97 0.1s done
+#14 exporting config sha256:ac6e86489c5752359b93939f18c64dee5f3c86d7f29faf37c284b0b2f44d5a66 0.0s done
+#14 exporting attestation manifest sha256:e79f63707c7bdc5202c010147e984fa6159afe0e2e1785576d6ac874f09f3928 0.1s done
+#14 exporting manifest list sha256:663d356eea2683a1dea34d3f757a3e1425c99b0457c913e953f94fd8a73127be
+#14 exporting manifest list sha256:663d356eea2683a1dea34d3f757a3e1425c99b0457c913e953f94fd8a73127be 0.1s done
+#14 naming to docker.io/library/counter:nonroot
+#14 naming to docker.io/library/counter:nonroot 0.0s done
+#14 unpacking to docker.io/library/counter:nonroot 0.1s done
+#14 DONE 1.0s
+fc38cb9c3ae7b5820b872e05057b63997e0420190e07f22f7911d0e4a57afced
+GET
+{"count": 0} [200]
+POST
+{"count": 1} [201]
+GET
+{"count": 1} [200]
+id
+uid=10001(app) gid=10001(app) groups=10001(app)
+c-nonroot
+TAG          SIZE
+nonroot      234MB
+multistage   234MB
+single       380MB
